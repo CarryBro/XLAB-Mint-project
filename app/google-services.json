@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598202508227",
+    "project_id": "xlab-13a4e",
+    "storage_bucket": "xlab-13a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598202508227:android:4100c683973a59494a9376",
+        "android_client_info": {
+          "package_name": "com.example.xlab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASjNVUfBuW-jozDZZyyUpLtxMe-d6f67k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

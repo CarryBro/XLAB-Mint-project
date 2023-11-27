@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/texture_left" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvLetsLogin"
+            style="@style/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:text="Авторизация"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLoginLeft"
+            app:layout_constraintTop_toTopOf="parent"
+ />
+        <TextView
+            android:id="@+id/tvDontHaveAccount"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Нет аккаунта? Зарегистрироваться"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/tvLetsLogin"
+            app:layout_constraintTop_toBottomOf="@id/tvLetsLogin"/>
+
+        <EditText
+            android:id="@+id/edEmailLogin"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittextHeight"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintTop_toBottomOf="@id/tvDontHaveAccount"
+            style="@style/editText"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/edPasswordLogin"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittextHeight"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintTop_toBottomOf="@id/edEmailLogin"
+            style="@style/editText"
+            android:hint="Почта"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/googleLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/google_login"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toBottomOf="@id/buttonLoginLogin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            app:layout_constraintStart_toStartOf="@id/googleLogin"
+            app:layout_constraintBottom_toBottomOf="@id/googleLogin"
+            app:layout_constraintEnd_toEndOf="@id/googleLogin"
+            app:layout_constraintTop_toTopOf="@id/googleLogin"/>
+
+        <TextView
+            android:id="@+id/tvForgotPasswordLogin"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Забыл пароль"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/tvLetsLogin"
+            app:layout_constraintTop_toBottomOf="@id/edPasswordLogin"
+            android:textColor="@color/black"/>
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/buttonLoginLogin"
+            style="@style/blueButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:text="Войти"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@id/tvForgotPasswordLogin"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            android:layout_marginTop="15dp"
+            app:spinning_bar_color="@color/white"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLoginLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.09" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLoginRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.91" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>
