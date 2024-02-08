@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopping_graph"
+    app:startDestination="@id/catalogueFragment">
+
+    <fragment
+        android:id="@+id/catalogueFragment"
+        android:name="com.example.xlab.fragments.shopping.HomeFragment"
+        android:label="CatalogueFragment"
+        tools:layout="@layout/fragment_home"
+        />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.xlab.fragments.shopping.TestFragment"
+        android:label="TestFragment"
+        tools:layout="@layout/fragment_test"
+        />
+    <fragment
+        android:id="@+id/selectionFragment"
+        android:name="com.example.xlab.fragments.shopping.SelectionFragment"
+        android:label="SelectionFragment"
+        tools:layout="@layout/fragment_selection"
+        />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.xlab.fragments.shopping.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile"
+        />
+</navigation>

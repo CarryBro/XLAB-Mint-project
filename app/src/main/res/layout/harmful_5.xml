@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_54"/>
+
+        <!-- TextView для заголовка статьи -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarsonemus myceliophagus
+"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Размер около 0.35 мм.  Кирипично-красного цвета с характерной бороздой разделяющей просому и гистеросому (голову+переднегрудь и переднегрудь +брюшко). "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Европа, Кавказ, Крым, оранжереи и теплицы. Полифаг, обнаружен более чем на 100 видах растений. Опасный вредитель цитрусовых растений, чая, кофе и др. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В закрытом грунте размножается круглогодично, в открытом 3-4 поколения в год. Теплолюбивы. Зимуют самки и яйца на побегах и листьях вечнозеленых растений, а также под корой деревьев. Оптимальная температура для развития 25-30°С. Засушливым летом с высокими показателями среднесуточной температуры клещ размножается интенсивнее. Стадии развития включают личинку, протонимфу,  дейтонимфу и взрослую особь. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/pich52"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_53"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Клещи повреждают листья, черешки и плоды, вызывая в местах укусов некрозы. Для винограда наибольшую опасность представляют в конце сезона вегетации. Большая численность клещей в этот период может спровоцировать сильное повреждение гроздей винограда. Дополнительную опасность клещи рода Brevipalpus несут в связи с тем, что переносят вирусы и заражают ими растения во время питания. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Методы сдерживания"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В закрытом грунте искусственное внесение клещей семейства Phytoseiidae. В открытом грунте воздержание от опрыскивания акарицидами опушечных растений для сохранения естественных врагов этих клещей   (подтверждено для винограда). "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Химические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Использование акарицидов под конец вегетационного сезона растения, в период плодоношения."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Васильев В.П. Вредители сельскохозяйственных культур и лесных насаждений в трех томах. Том I. Вредные нематоды, моллюски, членистоногие (часть первая). Коллектив авторов. Под ред. акад. В.П. Васильева. К., «Урожай», 1973, стр. 496 с."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Волкова М.В., Якушина Н.А. Акарокомлекс виноградных насаждений и пути его стабилизации (методические рекомендации) - Симферополь: ООО “Издательство “Поли-Пресс”, 2012 - 32с., ил."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARL C. CHILDERS, J. VICTOR FRENCH and JOSE CARLOS V. RODRIGUES Brevipalpus californicus, B. obovatus, B. phoenicis, and B. lewisi (Acari: Tenuipalpidae): a review of their biology, feeding injury and economic importance. Experimental and Applied Acarology 30: 5–28, 2003."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

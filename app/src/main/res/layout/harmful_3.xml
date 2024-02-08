@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_32"
+            />
+
+        <!-- TextView для заголовка статьи -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tyrophagus putrescentiae"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Размер 0.4-0.5 мм с характерной группой щетинок на опистосоме размером до 2/3 от длины тела. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Космополит, полифаг. Предпочитает переувлажненные места. Питается грибами, подгнившими частями растений, вредитель запасов.  "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "При температуре 25-30°С цикл развития клеща длится 16-18 дней. Цикл развития включает несколько стадий: яйцо, личинка, протонимфа, тритонимфа, взрослая особь. При подходящих условиях (обилие пищевого субстрата и температура) популяция может набирать огромную численность и нанести непоправимый ущерб запасам зерна и пищевым продуктам. Особенностью клеща является его способность к переносу спор грибов, которые параллельно развиваются на субстрате.  Клещ способен переносить споры грибов, которые в последствии развиваются на пищевом субстрате."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Обладает грызущим ротовым аппаратом, то есть в отличии от многих других клещей потребляет пищу кусочками. Повышение влажности является одним из ключевых условий появления или усиления вредоносности этого клеща за счет  формирования благоприятных условий. Атакует грибной мицелий, зерно в хранилищах, пищевые продукты. Вытесняет культуры кормовых клещей, используемых для прокорма энтомофагов. Так же аллергенность клеща несет прямую опасность для здоровья человека. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Методы сдерживания"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Профилактические"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Строгий режим чистоты на объекте, клещи могут сохраняться на частичках почвы, поддержание влажности в зернохранилищах ниже 14%."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Фумигация помещения, использование контактных  инсекто-акарицидов."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

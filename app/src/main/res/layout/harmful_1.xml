@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+
+        <!-- TextView для заголовка статьи -->
+        <ImageView
+            android:id="@+id/pich1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_1" />
+
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steneotarsonemus panshini"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/articleTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wainstein, Beglarov, 1968"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:padding="8dp"/>
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Размер около 0.2 мм. Слегка овальная форма тела с квадратной гнатосомой (головная капсула). Последняя пара ног несет длинные щетинки вместо коготков. Характерен выраженный половой диморфизм. Самцы имеют серповидную форму последней пары для удержания самки во время спаривания."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Местами резервации клеща служат лесополосы, участки с дикорастущими злаками, в частности костер и пырей, а также поля, засоренные овсюгом."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Клещ принадлежит к семейству Tarsonemidae, его развитие состоит из следующих последовательных фаз: яйцо, личинка, неподвижная куколка, половозрелая особь. Период развития одного поколения составляет 21-23 дня. Зимует в увлажненном слое почвы. В период всходов твердой пшеницы самки проникают за колеоптиль, некоторое время питаются, а затем откладывают по 10-15 яиц вдоль проводящих сосудов стебля и листьев."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В местах прокола тканей образуются мелкие наросты в виде водяных пузырьков, имеющих округлую, слабо вытянутую иногда сосочковидную форму. Поврежденные клещом генеративные тычинки и пестики прекращают свое развитие еще до оплодотворения, в результате чего цветки остаются стерильными. Основной урон, наносимый урожаю, проявляется именно в пустоколосице. Повреждения стебля и листьев задержку роста растения, как правило, не вызывают."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Биологические методы сдерживания.\n2. Агротехнические методы сдерживания."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ломтев А.В. Обоснование и разработка системы мер борьбы с пшеничным цветочным клещом (Steneotarsonemus panshini w. Et в.) - новым вредителем твердой пшеницы // автореферат диссертации : 1982."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

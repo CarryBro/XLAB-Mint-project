@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_42" />
+
+        <!-- TextView для заголовка статьи -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siteroptes ceralium"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Размер около 0.3 мм. Вытянутая форма тела. У самки все ноги приспособлены для ходьбы в отличии от представителей сем. Tarsonemidae. Выраженный половой диморфизм: самцы мельче, редуцированная головная капсула, но сильно выражен копулятивный аппарат. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Повсеместно в странах СНГ, Европы, США и Китае. Атакует злаки: пшеница, ячмень, овес и рад диких злаков."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зимует в прикорневой части злаков, с наступлением весны начинают питаться на молодых сочных частях растений. Самка набирает объем вместе с личинками находящимися внутри нее. После того как личинки разрывают тело самки и выходят из нее, они  через 4 дня становится половозрелыми особями. В течении года появляется 3-4 поколения вредителя. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Заселяя молодые побег злаков клещи вызывают у них увядание. У более зрелых растений вызывают побурение листьев и скручивание. При повреждении генеративных органов злаков вызывают пустоколосицу. Так же клещи переносят споры фитопатогенных грибов, например из рода Fusarium, которые поражают растение и делают ткани более усвояемыми для клещей."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Васильев В.П. Вредители сельскохозяйственных культур и лесных насаждений в трех томах. Том I. Вредные нематоды, моллюски, членистоногие (часть первая). Коллектив авторов. Под ред. акад. В.П. Васильева. К., «Урожай», 1973, стр. 496 с."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

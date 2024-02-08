@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_22"/>
+
+        <!-- TextView для заголовка статьи -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarsonemus myceliophagus
+"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Длина около 0.2 мм ширина около 0.1 мм. Слегка вытянутая округлая форма тела, характерная типичная для представителей семейства Tarsonemidae. Характерен выраженный половой диморфизм. Самцы используют серповидную  форму последней пары ног для удержания самки во время спаривания. В свою очередь четвертая пара ног у самки несет только длинные щетинки без коготков. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Космополит, предпочитает грибной мицелий. Является частым паразитом грибных коллекций в лабораториях, повреждает шампиньоны в грибных хозяйствах. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Развитие состоит из следующих последовательных фаз: яйцо, личинка, неподвижная куколка, половозрелая особь. С момента откладки яйца до половозрелой особи проходит около двух недель. При обилии грибного субстрата численность клещей растет очень быстро. На этапе роста популяции в ней значительно преобладают самки, а на момент снижения доступности пищевых ресурсов половое соотношение выравнивается. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/pich22"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_23"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Единичные особи не заметны без бинокуляра. При росте колонии клещей ткань гриба испытывает заметное воздействие клещей. Наблюдается угнетение роста гриба, появляются желтеющие участки на гифах. При обильном размножении клещ может полностью уничтожить грибную коллекцию. Клещ может покидать чашку Петри (для лабораторных колоний) и находить нетронутый субстрат. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Методы сдерживания"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Для лабораторий и хозяйств. Фумигация бромистым метилом или выдерживание в течение нескольких часов при температуре 66 °- 71 °С с последующим распылением 0,01% дикофола.
+Важное значение несет профилактика от насекомых внутри помещения (клещи переносятся с помощью форезии) и режим чистоты (частички почвы могут нести яйца клещей)."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hussey, N.W. 1963. A new species of Tarsonemus (Acarina: Tarsonemidae) from cultivated mushrooms. Acarologia, 5: 540-544
+HUSSEY N., GURNEY B. 1967 . Bionomics and control of Tarsonemus myceliophagus (Acarina: Tarsonemidae) in mushroom composts. Entomologia Experimentalis et Applicata, 10: 287–294.
+"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

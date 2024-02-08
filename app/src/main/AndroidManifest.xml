@@ -18,6 +18,8 @@
             android:exported="false"
             android:label="@string/title_activity_guide"
             android:theme="@style/Theme.XLAB"/>
+        <activity android:name=".activities.ArticleActivity">
+        </activity>
         <activity
             android:name=".activities.LoginRegisterActivity"
             android:exported="true">
