@@ -15,6 +15,7 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.example.xlab.R
 import com.example.xlab.activities.LoginRegisterActivity
+import com.example.xlab.activities.UserAccountViewModel
 import com.example.xlab.databinding.FragmentProfileBinding
 import com.example.xlab.fragments.categories.ProfileViewModel
 import com.example.xlab.util.Resource
@@ -47,7 +48,7 @@ class ProfileFragment : Fragment() {
 
         binding.linearLogOut.setOnClickListener {
             viewModel.logout()
-            val intent = Intent(requireActivity(), LoginRegisterActivity::class.java)
+            val intent = Intent(requireActivity(), UserAccountViewModel.LoginRegisterActivity::class.java)
             startActivity(intent)
             requireActivity().finish()
         }
