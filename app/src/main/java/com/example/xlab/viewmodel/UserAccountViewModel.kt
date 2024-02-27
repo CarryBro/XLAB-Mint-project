@@ -68,7 +68,7 @@ class UserAccountViewModel @Inject constructor(
 
         if (!areInputsValid) {
             viewModelScope.launch {
-                _user.emit(Resource.Error("Check your inputs"))
+                _user.emit(Resource.Error("Проверьте правильность ввода"))
             }
             return
         }
