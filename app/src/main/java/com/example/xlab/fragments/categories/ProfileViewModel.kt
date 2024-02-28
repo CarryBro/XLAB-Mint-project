@@ -37,7 +37,7 @@ class ProfileViewModel @Inject constructor(
                         _user.emit(Resource.Error(error.message.toString()))
                     }
                 } else {
-                    val user = value?.toObject(user::class.java)
+                    val user = value?.toObject(User::class.java)
                     user?.let {
                         viewModelScope.launch {
                             _user.emit(Resource.Success(user))

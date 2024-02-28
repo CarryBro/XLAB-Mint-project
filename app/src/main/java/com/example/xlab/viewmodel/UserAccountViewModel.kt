@@ -48,7 +48,7 @@ class UserAccountViewModel @Inject constructor(
 
         firestore.collection("user").document(auth.uid!!).get()
             .addOnSuccessListener {
-                val user = it.toObject(user::class.java)
+                val user = it.toObject(User::class.java)
                 user?.let {
                     viewModelScope.launch {
                         _user.emit(Resource.Success(it))

@@ -2,6 +2,7 @@ package com.example.xlab.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.xlab.data.User
 import com.example.xlab.util.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -27,7 +28,7 @@ class LoginViewModel @Inject constructor(
             _login.emit(Resource.Loading())
         }
         firebaseAuth.signInWithEmailAndPassword(
-        email,password
+            email,password
         ).addOnSuccessListener {
             viewModelScope.launch {
                 it.user?.let {

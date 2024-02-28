@@ -34,6 +34,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         super.onViewCreated(view, savedInstanceState)
 
         val viewPager2Adapter = HomeViewpagerAdapter(categoriesFragments, childFragmentManager, viewLifecycleOwner.lifecycle)
+        binding.viewpagerHome.offscreenPageLimit = 100
         binding.viewpagerHome.adapter = viewPager2Adapter
 
         TabLayoutMediator(binding.tabLayout, binding.viewpagerHome) { tab, position ->

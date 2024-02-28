@@ -67,16 +67,32 @@ class LoginFragment: Fragment(R.layout.fragment_login)  {
                         is Resource.Loading -> {
                             // Handle loading state
                         }
+
                         is Resource.Success -> {
-                            com.google.android.material.snackbar.Snackbar.make(requireView(), "Ссылка для восстановления была отправлена на вашу почту", com.google.android.material.snackbar.Snackbar.LENGTH_LONG).show()
+                            com.google.android.material.snackbar.Snackbar.make(
+                                requireView(),
+                                "Ссылка для восстановления была отправлена на вашу почту",
+                                com.google.android.material.snackbar.Snackbar.LENGTH_LONG
+                            ).show()
                         }
+
                         is Resource.Error -> {
-                            com.google.android.material.snackbar.Snackbar.make(requireView(), "Ошибка: ${resource.message}", com.google.android.material.snackbar.Snackbar.LENGTH_LONG).show()
+                            com.google.android.material.snackbar.Snackbar.make(
+                                requireView(),
+                                "Ошибка: ${resource.message}",
+                                com.google.android.material.snackbar.Snackbar.LENGTH_LONG
+                            ).show()
                         }
+
                         else -> Unit
                     }
                 }
+            }
+        }
 
+        lifecycleScope.launch {
+            // Ensuring that the code block inside runs when the lifecycle is at least STARTED
+            lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.login.collect { resource ->
                     when (resource) {
                         is Resource.Loading -> {
@@ -98,7 +114,5 @@ class LoginFragment: Fragment(R.layout.fragment_login)  {
                 }
             }
         }
-
-
     }
 }

@@ -29,6 +29,11 @@ class HarmfulCategory : Fragment(), MinesAdapter.OnMineClickListener {
         // Устанавливаем список hmines для HarmfulCategory
         adapter.setCategory(MinesAdapter.Category.PESTS)
 
+        // Принудительное обновление разметки RecyclerView
+        binding.recycler.post {
+            binding.recycler.requestLayout()
+        }
+
         return binding.root
     }
 

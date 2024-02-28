@@ -13,6 +13,7 @@ import com.example.xlab.databinding.ActivityGuideBinding
 import dagger.hilt.android.AndroidEntryPoint
 import com.example.xlab.R
 
+@AndroidEntryPoint
 class GuideActivity : AppCompatActivity() {
 
     val binding by lazy {
