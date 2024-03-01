@@ -15,9 +15,9 @@ object LayoutUtils {
               25 -> R.layout.harmful_5
               26 -> R.layout.harmful_6
               27 -> R.layout.harmful_7
-//            18
-//            19
-//            20
+              28 -> R.layout.harmful_8
+              29 -> R.layout.harmful_9
+              30 -> R.layout.harmful_10
 //              21 -> R.layout.harmful_1
 //            22
 //            23

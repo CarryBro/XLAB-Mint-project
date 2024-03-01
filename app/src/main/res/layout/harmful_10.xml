@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful10"/>
+
+        <!-- TextView для заголовка статьи -->
+
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Penthaleus major"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Овальное тело длиной около 1мм темно-фиолетового цвета с красным пятном рядом на опистосоме (задняя часть брюшка)."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Клещ распространен по всему миру. Повреждает колосья злаков, бобовые и овощные культуры."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Важной особенностью жизненного цикла клеща является продолжительная летняя диапауза. Так из яиц отложенных летом личинки появляются на свет только поздней осенью, зимой уже эти зрелые самки откладывают яйца из которых весной в свою очередь появляется новое поколение, которое взрослеет и формирует летнюю кладку яиц, которые до осени впадают в диапаузу. Стадии развития: яйцо, предличинка, протонимфа, дейтонимфа, тритонимфа и взрослый клещ. Предпочитают холодный и влажный климат 8-15°С оптимальные температуры для откладки яиц."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Клещи повреждают растения высасывая соки тканей мезофилла листа. Признаками повреждения являются побеление листовой пластинки или ее серебристый цвет. Стрессовые факторы (засуха и переувлажнение) усиливают вредоносность клещей растению. ЭПВ 5 экз/лист."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Методы сдерживания"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сдерживание может осуществляться с помощью дикой фауны клещей семейств Anystidae, и Bdellidae для чего интенсивность химических обработок должна быть снижена или сведена к нулю. Резерватом для хищных клещей выступают сопряженная растительность. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Химические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Эффективность использование ФОС и пиретроидов около 50-70%."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Агротехнические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Соблюдение севооборотов."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Васильев В.П. Вредители сельскохозяйственных культур и лесных насаждений в трех томах. Том I. Вредные нематоды, моллюски, членистоногие (часть первая). Коллектив авторов. Под ред. акад. В.П. Васильева. К., «Урожай», 1973, стр. 496 с."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/blue-oat-mite"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. https://cesaraustralia.com/pestnotes/mites/blue-oat-mite/"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. https://kccc.ru/blog/zimniy-zernovoy-kleshch-penthaleus-major-duges "
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+        \
+
+    </LinearLayout>
+</ScrollView>

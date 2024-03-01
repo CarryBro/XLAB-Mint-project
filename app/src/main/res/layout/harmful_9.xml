@@ -11,22 +11,31 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful92"/>
 
         <!-- TextView для заголовка статьи -->
+
+
+        <!-- TextView для первой части текста статьи -->
         <TextView
             android:id="@+id/articleTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eriophyes pyri"
+            android:padding="8dp"
+            android:text="Bryobia rubrioculus"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:padding="8dp"/>
+            android:textStyle="bold" />
 
-        <!-- TextView для первой части текста статьи -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ключевые морфологические особенности."
+            android:text="Ключевые морфологические особенности"
             android:textSize="18sp"
             android:textStyle="bold"
             android:padding="8dp"/>
@@ -34,14 +43,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Червеобразное удлиненное тело длиной около 0.2 мм с двумя парами ног. Окраска от белой до розоватой и светло-коричневой."
+            android:text="Размер самки 0.5-0.6 мм. Хорошо различимы невооруженным глазом. Передние ноги в 1.5 раза длиннее тела. Все ноги взрослых особей бледно-оранжевого цвета. Тело овальное с красновато-бурым оттенком."
             android:textSize="16sp"
             android:padding="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Распространение и предпочитаемый субстрат."
+            android:text="Распространение и предпочитаемый субстрат"
             android:textSize="18sp"
             android:textStyle="bold"
             android:padding="8dp"/>
@@ -49,14 +58,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Космополит. Обитает там, где есть насаждения груши и яблонь. Распространяется с помощью ветра, животных, а также человека распространяя зараженные растения при закладке новых садов. "
+            android:text="Широко распространены по всему миру кроме тропического пояса. Повреждают растения семейства розоцветные. "
             android:textSize="16sp"
             android:padding="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Биологические особенности."
+            android:text="Биологические особенности"
             android:textSize="18sp"
             android:textStyle="bold"
             android:padding="8dp"/>
@@ -64,14 +73,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Самки зимуют под поверхностью почечных чешуек и с наступлением весны, когда растение начинает формировать листья клещи начинают формировать галлы. В течении вегетационного периода формируется три поколения клещей. Рост их числа неизбежно сопровождается ростом галлов, внутри которых находятся клещи. К концу вегетационного сезона лещи начинают массово покидать галлы и переселяться в почки на зимовку."
+            android:text="Зимует яйцо под корой или почками на деревьях. Когда температура воздуха становится выше 7°С из яиц выходят личинки. В зависимости от температуры продолжительность генерации изменяется в диапазоне от 20 до 40 дней. В течении вегетационного периода может давать 4-5 поколений. Перед каждой сменой стадии, в преддверии линьки, клещи уходят на стадию предлиночного покоя (продолжительностью от 2 до 5 дней), который проходит на побегах растений. После перехода на следующую стадию клещи возвращаются на листья и почки. "
             android:textSize="16sp"
             android:padding="8dp"/>
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Характер повреждения и вредоносность."
+            android:text="Характер повреждения и вредоносность"
             android:textSize="18sp"
             android:textStyle="bold"
             android:padding="8dp"/>
@@ -79,14 +89,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Клещ повреждает груши и яблони, выделяя слюну, которая образует галл вокруг самого клеща так, что он полностью оказывается защищен от внешних факторов. "
-            android:textSize="16sp"
-            android:padding="8dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Распространение галлов на растении приводит к изменениям листовой ткани, за счет чего фотосинтетическая активность растения существенно снижается тем самым угнетается его рост."
+            android:text="Повреждает листья яблони, сливы, груши, вишни, черешни, абрикоса, миндаля, персика и др. Под воздействием укусов клеща листья обесцвечиваются и засыхают. На листьях формируются бело-коричневые пятна с нечеткими границами вдоль жилок и у основания. В отличии от паутинных клещей паутину не образуют."
             android:textSize="16sp"
             android:padding="8dp"/>
 
@@ -94,37 +97,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Методы сдерживания"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:padding="8dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Биологические"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:padding="8dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Обеспечение разнообразия растений в саду, которые являются природными резерватами хищных клещей из семейства Phytoseiidae и Tydeidae."
             android:textSize="16sp"
             android:padding="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Химические"
-            android:textSize="18sp"
-            android:textStyle="bold"
+            android:text="Биологические"
+            android:textSize="16sp"
             android:padding="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Использование акарицидов под конец вегетационного сезона растения в период массового выхода клещей из галлов работает как превентивная мера на следующий сезон. В течении вегетационного периода можно использовать препараты с трансламинарным эффектом т.к. контактные акарициды малоэффективны. Важно помнить, что использование любых акарицидов в течении вегетационного периода убивает агентов биоконтроля."
+            android:text="Естественные популяции клещей семейств Anystidae и Phytoseiidae. Также паразитов атакуют златоглазки."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Химические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Фосфорорганические пестициды в фазу розового бутона (для яблони) или сразу после цветения (для косточковых)"
             android:textSize="16sp"
             android:padding="8dp"/>
 
@@ -147,10 +146,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2. http://agroatlas.ru/ru/content/pests/Eriophyes_pyri/index.html "
+            android:text="2. https://cesaraustralia.com/pestnotes/mites/bryobia-mite/"
             android:textStyle="italic"
             android:textSize="14sp"
             android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. https://www.armuro.com/en/brown-mite-pest-management/ "
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+        \
 
     </LinearLayout>
 </ScrollView>

@@ -55,9 +55,9 @@ class MinesAdapter(private val onMineClickListener: OnMineClickListener) : Recyc
         Mine(R.drawable.harmful_51, "Brevipalpus ovobatus", 25),
         Mine(R.drawable.testmine, "Eriophyes pyri", 26),
         Mine(R.drawable.harmful_71, "Tetranychus urticae", 27),
-        Mine(R.drawable.testmine, "BMine 8", 28),
-        Mine(R.drawable.testmine, "BMine 9", 29),
-        Mine(R.drawable.testmine, "BMine 10", 29),
+        Mine(R.drawable.harmful8, "Bryobia rubrioculus", 28),
+        Mine(R.drawable.harmful91, "Bryobia rubrioculus", 29),
+        Mine(R.drawable.harmful10, "Penthaleus major", 29),
     )
 
     private var currentList = mines
