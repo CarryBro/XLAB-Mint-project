@@ -47,7 +47,6 @@
         app:layout_constraintTop_toBottomOf="@id/tvLetsLogin"
         style="@style/editText"
         android:hint="Имя"
-        android:inputType="textEmailAddress"
         android:layout_marginTop="50dp"
         tools:ignore="NotSibling" />
 
@@ -63,7 +62,6 @@
         app:layout_constraintTop_toBottomOf="@id/edFisrtNameRegister"
         style="@style/editText"
         android:hint="Фамилия"
-        android:inputType="textPassword"
         android:layout_marginTop="15dp"/>
 
     <EditText
@@ -74,8 +72,8 @@
         app:layout_constraintEnd_toEndOf="@id/guidelineRegisterRight"
         app:layout_constraintTop_toBottomOf="@id/edLastNameRegister"
         style="@style/editText"
+        android:inputType="textEmailAddress"
         android:hint="Почта"
-        android:inputType="textPassword"
         android:layout_marginTop="15dp"/>
 
     <EditText

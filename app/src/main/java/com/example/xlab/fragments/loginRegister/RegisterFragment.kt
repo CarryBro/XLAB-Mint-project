@@ -68,7 +68,11 @@ class RegisterFragment : Fragment() {
                     is Resource.Success -> {
                         Log.d("test", it.data.toString())
                         binding.buttonRegisterRegister.revertAnimation()
-                    }
+
+
+                    // Automatically navigate to the login page after successful registration
+                    findNavController().navigate(R.id.action_registerFragment_to_loginFragment)
+                }
 
                     is Resource.Error -> {
                         Log.e(TAG, it.message.toString())
