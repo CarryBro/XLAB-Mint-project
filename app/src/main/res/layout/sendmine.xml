@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Заголовок процедуры -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Порядок подготовки одной пробы на анализ видового состава клещей"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <!-- Шаг 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Найти пакет с замком zip-lock размером примерно 20х30 см."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Двумя листами бумаги формата А4 или А5 проложить внутренние стенки пакета."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Собрать необходимое количество субстрата для анализа."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Детали шага 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• почва 500г\n• листовой опад, зерно, компост, подстилка, растительный грунт 300г\n• пораженные листья/почки с кустарника или дерева - 20 шт\n• злаки, травы - 10 растений без корня\n• ягоды, овощи, фрукты - 500г\n• луковицы, саженцы растений - 10 шт"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Разместить субстрат в пакете и закрыть его."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Подготовить бумажную этикетку, содержащую следующую информацию: вид растения/вид субстрата, область и населенный пункт отбора проб (по возможности с координатами), присвоить номер каждой пробе (если их несколько), ФИО и контакты сборщика."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Прикрепить этикетку с внешней стороны пакета."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 7 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Подготовить остальные пробы, если планируется множественный отбор."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 8 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Упаковать пробы в картонной или пластиковой коробке."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 9 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Отправить посылку Почтой России по указанному адресу."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- Шаг 10 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Отчет с видовым составом придет на e-mail (на адрес, указанный при регистрации в приложении)."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <!-- Остальные шаги -->
+        <!-- Продолжите добавлять остальные шаги аналогичным образом -->
+        <TextView
+            android:id="@+id/exampleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+</ScrollView>

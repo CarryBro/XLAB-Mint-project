@@ -10,7 +10,11 @@
         android:name="com.example.xlab.fragments.shopping.HomeFragment"
         android:label="CatalogueFragment"
         tools:layout="@layout/fragment_home"
-        />
+        >
+        <action
+            android:id="@+id/action_catalogueFragment_to_selectionFragment"
+            app:destination="@id/selectionFragment" />
+    </fragment>
     <fragment
         android:id="@+id/testFragment"
         android:name="com.example.xlab.fragments.shopping.TestFragment"
