@@ -1,6 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView для отображения первой фотографии статьи -->
+        <ImageView
+            android:id="@+id/pich5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/harmful_71"/>
+
+        <!-- TextView для заголовка статьи -->
+
+
+        <!-- TextView для первой части текста статьи -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Tetranychus urticae"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые морфологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Размер 0,3-0,5 мм. Округлая форма тела, крупные взрослые особи заметны невооруженным глазом. Окраска очень разнообразна, от темно-зеленого до красного цвета с двумя большими темными пятнами по бокам тела. На микропрепарате виден характерный для семейства Tetranichidae стилофор."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распространение и предпочитаемый субстрат"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Космополит. Атакует свыше 200 видов растений, в числе которых множество культурных. Часто обнаруживается в теплицах в качестве основного вредителя вне зависимости от уровня их защиты и оснащения. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические особенности"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Жизненный цикл состоит из нескольких стадий: яйцо, личинка, протонимфа, дейтонимфа и взрослая особь. Самка откладывает яйца на нижней стороне листа, располагая их под защитой паутины. Число откладываемых яиц зависит от температуры, чем она выше тем интенсивнее происходит откладка (диапазон от 3 до 20 яиц в сутки). Наиболее благоприятная температура для развития этих клещей составляет около 30°С. В закрытом грунте с искусственным освещением смена поколений продолжается круглый год. В природных условиях число поколений в год зависит от региональной температуры, обычно около 10 для умеренного пояса. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характер повреждения и вредоносность"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Атаку паутинного клеща на растения качественно выделяет обилие паутины, оплетающей листья между собой. Вред растению наносится непосредственно клещом, который высасывает содержимое хлоренхимы (фотосинтезирующей ткани листа). В местах питания клетки отмирают. В сухие и жаркие периоды вредоносность клеща повышается."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Методы сдерживания"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Биологические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В закрытом грунте используются хищные клещи Phytoseiulus рersimilis, Neoseiulus californicus как наиболее эффективные агенты биоконтроля паутинного клеща. В открытом грунте защита может быть осуществлена при помощи местных видов клещей нативной фауны данного региона. Для задействования потенциала местных хищных видов рекомендуется воздержаться от обработок крайних рядков растений, которые контактируют с дикими видами растений."
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Химические"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Частое использование контактных инсекто-акарицидов приводит к появлению резистентности в популяции. Таким образом рекомендуется их использование только для подавлению массовых вспышек численности до уровня экономического порога вредоносности. "
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Источники"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Васильев В.П. Вредители сельскохозяйственных культур и лесных насаждений в трех томах. Том I. Вредные нематоды, моллюски, членистоногие (часть первая). Коллектив авторов. Под ред. акад. В.П. Васильева. К., «Урожай», 1973, стр. 496 с."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Волкова М.В., Якушина Н.А. Акарокомлекс виноградных насаждений и пути его стабилизации (методические рекомендации) - Симферополь: ООО “Издательство “Поли-Пресс”, 2012 - 32с., ил."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+        \
+
+    </LinearLayout>
+</ScrollView>
